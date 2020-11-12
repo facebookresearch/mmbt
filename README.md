@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[MMBT](https://arxiv.org/abs/1909.02950) is the accompanying code repository for the paper titled, "Supervised Multimodal Bitransformers for Classifying Images and Text" by Douwe Kiela, Suvrat Bhooshan, Hamed Firooz, and Davide Testuggine.
+[MMBT](https://arxiv.org/abs/1909.02950) is the accompanying code repository for the paper titled, "Supervised Multimodal Bitransformers for Classifying Images and Text" by Douwe Kiela, Suvrat Bhooshan, Hamed Firooz, Ethan Perez and Davide Testuggine.
  
 
 The goal of the repository is to provide an implementation of the MMBT model and replicate the experiments in the paper.
@@ -41,6 +41,10 @@ python mmbt/train.py --batch_sz 4 --gradient_accumulation_steps 40 \
  --model mmbt --num_image_embeds 3 --freeze_txt 5 --freeze_img 3  \
  --patience 5 --dropout 0.1 --lr 5e-05 --warmup 0.1 --max_epochs 100 --seed 1
 ```  
+
+### MMBT in Transformers
+
+MMBT is also available in [HuggingFace Transformers](https://github.com/huggingface/transformers). See https://github.com/huggingface/transformers/tree/master/examples/contrib/mm-imdb for an example that shows how easy it is to run MMBT in that framework.
 
  ## License
  
