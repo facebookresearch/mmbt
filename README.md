@@ -44,7 +44,7 @@ python mmbt/train.py --batch_sz 4 --gradient_accumulation_steps 40 \
 
 ### MMBT in Transformers
 
-MMBT is also available in [HuggingFace Transformers](https://github.com/huggingface/transformers). See https://github.com/huggingface/transformers/tree/master/examples/contrib/mm-imdb for an example that shows how easy it is to run MMBT in that framework.
+MMBT is also available in [HuggingFace Transformers](https://github.com/huggingface/transformers). See https://github.com/huggingface/transformers/tree/master/examples/research_projects/mm-imdb for an example that shows how easy it is to run MMBT in that framework.
 
  ## License
  
