@@ -50,13 +50,6 @@ def get_hard_gt(args):
                 f.write('\n')
             else:
                 pass
-#     test_hard_gt = []
-#     for test in tests:
-#         if test["id"] in hard_gt_id:
-#             test_hard_gt.append(test)
-#         else:
-#             pass
-#     return test_hard_gt
 
 def cli_main():
     parser = argparse.ArgumentParser(description="Create Hard GT json")
